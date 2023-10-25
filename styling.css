@@ -1,0 +1,38 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+}
+
+.text-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container h1 {
+    margin: 0;
+    font-size: 70px;
+    color: rgba(225, 225, 225, .01);
+    background-image: url("https://img.freepik.com/free-photo/wavy-black-white-background_23-2150530927.jpg?t=st=1698233589~exp=1698237189~hmac=aa049b59c50cb8beb5856723bb4c4d6ac4bd7dec18801ca617eed4aed25a3136&w=1060");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+    @keyframes animate {
+        0%, 100% {
+            background-position: left top;
+        }
+        25% {
+            background-position: right bottom;
+        }
+        50% {
+            background-position: left bottom;
+        }
+        75% {
+            background-position: right top;
+        }
+    }
+
