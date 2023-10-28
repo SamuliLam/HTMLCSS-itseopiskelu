@@ -1,26 +1,33 @@
-
 /* Navigation bar should be on top of the container */
-
+html,
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .container {
-    max-width: 1200px;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     border: aqua 1px solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(36, 36, 38);
 }
 
 .topnav {
     overflow: hidden;
     background-color: #333;
     top: 1px;
-
 }
 
 .topnav a {
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
-    font-size: 17px;
+    padding: 2% 4%;
+    font-size: 90%;
     text-decoration: none;
     display: inline-block;
 }
@@ -35,22 +42,9 @@
     color: white;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
-    background-repeat: no-repeat;
-
-}
-
 
 header {
-    font-size: 70px;
+    font-size: 300%;
     color: rgba(225, 225, 225, .01);
     background-image: url("https://img.freepik.com/free-photo/wavy-black-white-background_23-2150530927.jpg?t=st=1698233589~exp=1698237189~hmac=aa049b59c50cb8beb5856723bb4c4d6ac4bd7dec18801ca617eed4aed25a3136&w=1060");
     background-repeat: repeat;
@@ -82,8 +76,14 @@ header {
     margin: 0 auto;
     box-sizing: border-box;
     display: block;
-    padding: 3rem;
+    padding: 2vh 2vw;
+    border: aqua 1px solid;
 
 }
 
-
+.paragraph {
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+    padding: 1vh 2vw;
+}
