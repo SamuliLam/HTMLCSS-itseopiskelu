@@ -12,10 +12,11 @@ body {
     min-height: 100%;
     width: auto;
     margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 2em 2em;
 }
 
 .topnav {
-    height: 90px;
     background-color: #1f2833;
     border: #66fcf1 1px solid;
     display: flex;
@@ -29,7 +30,7 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
-    padding: 0 1em;
+    padding: 1em 1em;
     font-size: 150%;
 }
 
@@ -43,7 +44,7 @@ body {
     color: white;
 }
 
-.pages {
+.links {
     display: flex;
 }
 
@@ -53,18 +54,14 @@ h1 {
     font-family: Raleway, sans-serif;
     font-size: max(8vw, 3vh);
     color: #66fcf1;
-    /*background-image: url("https://wallpapercave.com/wp/wp8483174.jpg");
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    animation: animate 15s ease-in-out infinite; */
     text-align: center;
     text-transform: uppercase;
     white-space: break-spaces;
 }
 
 
-.container img {
-    width: 60%;
+.scenery {
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -79,5 +76,5 @@ h1 {
     font-size: 30px;
     color: #c5c6c7;
     text-align: center;
-    padding: 1vh 15vw;
+    padding: 1vh 1vw;
 }
