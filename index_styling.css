@@ -33,6 +33,10 @@ body {
     padding: 1em 1em;
     font-size: 150%;
 }
+.topnav img {
+    width: 20%;
+    height: auto;
+}
 
 .topnav a:hover {
     background-color: #66fcf1;
