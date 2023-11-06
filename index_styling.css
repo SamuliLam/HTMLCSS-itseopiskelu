@@ -3,8 +3,17 @@ body {
     min-height: 100%;
     width: 100%;
     margin: 0;
-    background-image: url("./Background/Background.jpg");
+    background-image: url("./Background/Background.avif");
     background-size: cover;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtzpbCFPrEHJA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    font-display: swap;
 }
 
 .container {
@@ -32,6 +41,7 @@ body {
     padding: 1em 1em;
     font-size: 150%;
 }
+
 .topnav img {
     width: 20%;
     height: auto;
@@ -70,13 +80,13 @@ h1 {
     display: block;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
 .paragraph {
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 150%;
     color: #c5c6c7;
     text-align: center;
     padding: 1vh 1vw;
