@@ -9,7 +9,7 @@ body {
 
 .container {
     min-height: 100%;
-    width: auto;
+    width: 100%;
     margin: 0 auto;
     max-width: 1000px;
     padding: 0 2em 2em;
@@ -53,7 +53,7 @@ body {
 
 .topnav img {
     width: 20%;
-    height: auto;
+    height: 100%;
 }
 
 .topnav a:hover {
@@ -72,7 +72,7 @@ body {
 
 .scenery {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0 auto;
     display: block;
 }
