@@ -7,8 +7,16 @@
 <body>
 <h1>Font</h1>
 <p>Font is from <a href="https://fonts.googleapis.com/css?family=Raleway:900">Google fonts. Name: Raleway</a></p>
+<p>Font is used by linking it inside the html</p>
 <pre>
-    @import url('https://fonts.googleapis.com/css?family=Raleway:900');
+
+    &lt;link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet"&gt;
+    &lt;link href="index_styling.css" rel="stylesheet" type="text/css"&gt;
+
+    @font-face {
+      font-family: 'Raleway';
+      src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtzpbCFPrEHJA.woff2) format('woff2');
+    }
     body {
         font-family: 'Raleway', sans-serif;
     }
@@ -17,6 +25,9 @@
     }
     .topnav a {
         font-family: 'Raleway', sans-serif;
+    }
+    .paragraph {
+        font-family: 'Roboto', sans-serif;
     }
 </pre>
 <h2>Validation</h2>
